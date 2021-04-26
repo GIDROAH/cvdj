@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+
+.cv-label{
+    height: 2em;
+    margin: 5px; 
+    padding-top: 5px;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    border-radius: 5px;
+}
+.cv-label span{
+    font-size: 20px;
+}
+.cv-main{
+    display: flex;
+    margin: 5px;
+    background-color: #868686;
+    border-radius: 5px;
+}
+.cv-main .img{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.img img{
+    height: 6.25em;
+    margin: 10px;
+    align-self: center;
+    border-width: 5px;
+    border-radius: 50%;
+    border-style: outset;
+    
+}
+.cv-main .name span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px 0 0 0;
+}
+.cv-main .name{
+    margin: 10px 10px 0 10px;
+    padding-left: 15px;
+    padding-top: 22px;
+    
+}
+.cv-main .name p{
+    margin-top: 13px;
+    color: #ffffff;
+    font-size: 8px;
+    text-align: left;
+    
+}
+.contact{
+    align-content: center;
+    margin: 10px 10px 0 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    overflow-wrap: break-word;
+    
+}
+.contact .add span{
+    font-size: 20px;
+    padding-right:10px;
+}
+.contact .add{
+    font-size: 10px;
+    color: #ffffff;
+    margin-bottom: 7px;
+}
+.contact .num span{
+    font-size: 20px;
+    padding-right: 10px;
+}
+.contact .num{
+    font-size: 10px;
+    color: #ffffff;
+    margin-bottom: 7px;
+}
+.contact .email span{
+    font-size: 20px;
+    padding-right: 10px;
+}
+.contact .email{
+    font-size: 10px;
+    color: #ffffff;
+}
+.edu{
+    margin: 5px;
+}
+.edu fieldset{
+    border-radius: 5px;
+    border-width: 4px;
+    border-style: inset;
+    height: 10em;
+}
+.edu > fieldset > legend{
+    margin-left: 20px;
+    padding: 5px 5px 5px 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 5px;
+    border-style: outset
+}
+.edu fieldset p{
+    margin: 15px 0 0 25px;
+    word-spacing: 3px; 
+}
+.skills{
+    margin: 5px;
+}
+.skills  fieldset{
+    border-radius: 5px;
+    border-width: 4px;
+    border-style: outset;
+    height: 11em;
+}
+.skills  > fieldset > legend{
+    margin-left: 20px;
+    padding: 5px 5px 5px 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 5px;
+    border-style: outset
+}
+.progressbar{
+    margin: 10px 0 0 0;
+    padding: 0 0 0 20px;
+}
+.progressbar .html, .css, .js{
+    margin-bottom: 7px;
+}
+.progressbar p{
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+.html, .css, .js{
+    background-color: rgb(192,192,192);
+    width: 80%;
+    border-radius: 15px;
+}
+.skill-html, .skill-css, .skill-js{
+    background-color: rgb(116, 194, 92);
+    color: #ffffff;
+    font-size: 10px;
+    padding: 2px; 
+    text-align: right;
+    border-radius: 15px;
+}
+.skill-html{
+    width: 80%;
+}
+.skill-css{
+    width: 50%;
+}
+.skill-js{
+    width: 30%;
+}
+
+
+
+
+/**       SVG CIRCLE **
+.skills div{
+    display: flex;
+}
+.skills .html{
+    width: 140px;
+    height:140px;
+}
+
+/**      SVG CIRCLE **/
+
+.personal{
+    margin: 5px;
+}
+.personal  fieldset{
+    border-radius: 5px;
+    border-width: 4px;
+    border-style: inset;
+    height: 15em;
+}
+.personal  > fieldset > legend{
+    margin-left: 20px;
+    padding: 5px 5px 5px 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 5px;
+    border-style: outset
+}
+.personal fieldset p{
+    margin: 15px 0 0 25px;
+    word-spacing: 3px; 
+}
+.hobby{
+    margin: 5px;
+}
+.hobby  fieldset{
+    
+    border-radius: 5px;
+    border-width: 4px;
+    border-style: inset;
+    height: 10em;
+}
+.hobby  > fieldset > legend{
+    margin-left: 20px;
+    padding: 5px 5px 5px 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 5px;
+    border-style: outset
+}
+.hobby fieldset ul li{
+    margin: 15px 0 0 25px;
+    word-spacing: 3px; 
+}
+.declaration{
+    margin: 5px;
+}
+.declaration  fieldset{
+    border-radius: 5px;
+    border-width: 4px;
+    border-style: outset;
+    height: 10em;
+}
+.declaration  > fieldset > legend{
+    margin-left: 20px;
+    padding: 5px 5px 5px 5px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 5px;
+    border-style: outset
+}
+.declaration fieldset p{
+    margin: 15px 0 0 25px;
+    padding-top: 1px;
+    padding-left: 5px;
+    word-spacing: 3px; 
+}
+.declaration fieldset blockquote{
+    font-weight: bold; 
+    text-align: right;
+    margin-bottom: 10px; 
+    padding: 16px 70px 10px 0;
+}
+@media only screen and (min-width: 320px) and (max-width: 720px){
+    .cv-label{
+        margin-right: 5px;
+        width: 30em;
+    }
+    .cv-main{
+        height: 11em;
+        width: 30em;
+    }
+    .edu{
+        height: 11em; 
+        width: 30em;
+    }
+    .skills{
+        height: 11em; 
+        width: 30em;
+    }
+    .personal{
+        height: 16em; 
+        width: 30em;
+    }
+    .hobby{
+        height: 11em; 
+        width: 30em;
+    }
+    .declaration{
+        height: 11em;
+        width: 30em;
+    }
+}
