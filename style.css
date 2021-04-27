@@ -115,12 +115,13 @@ body{
 }
 .skills{
     margin: 5px;
+    height: 20em;
 }
 .skills  fieldset{
     border-radius: 5px;
     border-width: 4px;
     border-style: outset;
-    height: 11em;
+    height: 19em;
 }
 .skills  > fieldset > legend{
     margin-left: 20px;
@@ -135,19 +136,19 @@ body{
     margin: 10px 0 0 0;
     padding: 0 0 0 20px;
 }
-.progressbar .html, .css, .js{
+.progressbar .html, .css, .js, .py{
     margin-bottom: 7px;
 }
 .progressbar p{
     font-size: 12px;
-    margin-bottom: 2px;
+    margin-bottom: 7px;
 }
-.html, .css, .js{
+.html, .css, .js, .py{
     background-color: rgb(192,192,192);
     width: 80%;
     border-radius: 15px;
 }
-.skill-html, .skill-css, .skill-js{
+.skill-html, .skill-css, .skill-js, .skill-py{
     background-color: rgb(116, 194, 92);
     color: #ffffff;
     font-size: 10px;
@@ -163,6 +164,9 @@ body{
 }
 .skill-js{
     width: 30%;
+}
+.skill-py{
+    width: 45%;
 }
 
 
@@ -268,7 +272,7 @@ body{
         width: 30em;
     }
     .skills{
-        height: 11em; 
+        height: 19em; 
         width: 30em;
     }
     .personal{
